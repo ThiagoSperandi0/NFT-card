@@ -1,0 +1,109 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--main-bg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--card-bg);
+    padding: 24px;
+    width: 100%;
+    max-width: 400px;
+
+    border-radius: 19px;
+    box-shadow: 0px 34px 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card .main-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* texts */
+.card .texts {
+    margin: 30px 0px;
+}
+
+.texts h1 {
+    color: var(--white);
+    transition: 0.15s ease-in;
+    cursor: pointer;
+}
+
+.texts h1:hover {
+    color: var(--cyan);
+}
+
+.texts p {
+    color: var(--soft-blue);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.texts .footer-texts {
+    margin-top: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texts .footer-texts .coin .time {
+    display: flex;
+    align-items: center;
+}
+
+.texts .footer-texts .coin img ,.time img {
+    margin-right: 9px;
+}
+
+.texts .footer-texts .coin span {
+    color: var(--cyan);
+}
+
+.texts .footer-texts .time span {
+    color: var(--soft-blue);
+}
+
+/* LINE */
+.line {
+    padding: 1px;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--line);
+}
+
+/* FOOTER */
+footer.main-footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+footer.main-footer img {
+    width: 50px;
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+footer.main-footer span {
+    color: var(--soft-blue);
+    font-weight: 300;
+}
+
+footer.main-footer span.name {
+    color: var(--white);
+    transition: 0.15s ease-in;
+    cursor: pointer;
+}
+
+footer.main-footer span.name:hover {
+    color: var(--cyan);
+}
